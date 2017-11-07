@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D05444F1BD41BEB8C25A57D /* Pods_CocktailPartyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF5B955C5A1EE9608B6AE53 /* Pods_CocktailPartyUITests.framework */; };
+		38F03D551FB190B7009A4D12 /* OriginalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F03D541FB190B7009A4D12 /* OriginalTabBarController.swift */; };
 		6386D9D81FA08A6636F552B0 /* Pods_CocktailPartyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC70C9919FF940DCD87AF061 /* Pods_CocktailPartyTests.framework */; };
 		72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C641EB764C800EBADFB /* AppDelegate.swift */; };
 		72880C671EB764C800EBADFB /* CocktailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C661EB764C800EBADFB /* CocktailListViewController.swift */; };
@@ -41,6 +42,7 @@
 		267D4F68BD121F3E11FB8C50 /* Pods_CocktailParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocktailParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5E5F9533DF3E2BFEA28220 /* Pods-CocktailPartyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailPartyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailPartyUITests/Pods-CocktailPartyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DC45B30575DBC8AD3E0FE67 /* Pods-CocktailPartyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailPartyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailPartyUITests/Pods-CocktailPartyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38F03D541FB190B7009A4D12 /* OriginalTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalTabBarController.swift; sourceTree = "<group>"; };
 		56EDCB99BA736CA406D53B6B /* Pods-CocktailParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailParty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailParty/Pods-CocktailParty.debug.xcconfig"; sourceTree = "<group>"; };
 		72880C611EB764C800EBADFB /* CocktailParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72880C641EB764C800EBADFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				72880C641EB764C800EBADFB /* AppDelegate.swift */,
+				38F03D541FB190B7009A4D12 /* OriginalTabBarController.swift */,
 				72880C661EB764C800EBADFB /* CocktailListViewController.swift */,
 				72880C681EB764C800EBADFB /* SecondViewController.swift */,
 				72880C6A1EB764C800EBADFB /* Main.storyboard */,
@@ -454,6 +457,7 @@
 			files = (
 				72880C691EB764C800EBADFB /* SecondViewController.swift in Sources */,
 				72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */,
+				38F03D551FB190B7009A4D12 /* OriginalTabBarController.swift in Sources */,
 				72880C671EB764C800EBADFB /* CocktailListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
