@@ -15,7 +15,7 @@
 		6386D9D81FA08A6636F552B0 /* Pods_CocktailPartyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC70C9919FF940DCD87AF061 /* Pods_CocktailPartyTests.framework */; };
 		72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C641EB764C800EBADFB /* AppDelegate.swift */; };
 		72880C671EB764C800EBADFB /* CocktailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C661EB764C800EBADFB /* CocktailListViewController.swift */; };
-		72880C691EB764C800EBADFB /* InfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C681EB764C800EBADFB /* InfomationViewController.swift */; };
+		72880C691EB764C800EBADFB /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C681EB764C800EBADFB /* InformationViewController.swift */; };
 		72880C6C1EB764C800EBADFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72880C6A1EB764C800EBADFB /* Main.storyboard */; };
 		72880C6E1EB764C800EBADFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72880C6D1EB764C800EBADFB /* Assets.xcassets */; };
 		72880C711EB764C800EBADFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72880C6F1EB764C800EBADFB /* LaunchScreen.storyboard */; };
@@ -53,7 +53,7 @@
 		72880C611EB764C800EBADFB /* CocktailParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72880C641EB764C800EBADFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72880C661EB764C800EBADFB /* CocktailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailListViewController.swift; sourceTree = "<group>"; };
-		72880C681EB764C800EBADFB /* InfomationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationViewController.swift; sourceTree = "<group>"; };
+		72880C681EB764C800EBADFB /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		72880C6B1EB764C800EBADFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72880C6D1EB764C800EBADFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72880C701EB764C800EBADFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 			children = (
 				38F03D541FB190B7009A4D12 /* OriginalTabBarController.swift */,
 				72880C661EB764C800EBADFB /* CocktailListViewController.swift */,
-				72880C681EB764C800EBADFB /* InfomationViewController.swift */,
+				72880C681EB764C800EBADFB /* InformationViewController.swift */,
 				382BDC1A1FB2E88500EEAE45 /* NewCocktailViewController.swift */,
 			);
 			path = ViewControllers;
@@ -480,7 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72880C691EB764C800EBADFB /* InfomationViewController.swift in Sources */,
+				72880C691EB764C800EBADFB /* InformationViewController.swift in Sources */,
 				72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */,
 				38F03D551FB190B7009A4D12 /* OriginalTabBarController.swift in Sources */,
 				387537F21FB42F03003C16B6 /* Quantity.swift in Sources */,

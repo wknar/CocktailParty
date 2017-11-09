@@ -1,5 +1,5 @@
 //
-//  InfomationViewController.swift
+//  InformationViewController.swift
 //  CocktailParty
 //
 //  Created by アラ 若菜 on 2017/05/01.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InfomationViewController: UIViewController {
+class InformationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
