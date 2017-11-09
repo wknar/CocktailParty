@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1D05444F1BD41BEB8C25A57D /* Pods_CocktailPartyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF5B955C5A1EE9608B6AE53 /* Pods_CocktailPartyUITests.framework */; };
 		382BDC1B1FB2E88500EEAE45 /* NewCocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382BDC1A1FB2E88500EEAE45 /* NewCocktailViewController.swift */; };
+		387537F01FB42D0F003C16B6 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387537EF1FB42D0F003C16B6 /* Cocktail.swift */; };
+		387537F21FB42F03003C16B6 /* Quantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387537F11FB42F03003C16B6 /* Quantity.swift */; };
 		38F03D551FB190B7009A4D12 /* OriginalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F03D541FB190B7009A4D12 /* OriginalTabBarController.swift */; };
 		6386D9D81FA08A6636F552B0 /* Pods_CocktailPartyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC70C9919FF940DCD87AF061 /* Pods_CocktailPartyTests.framework */; };
 		72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C641EB764C800EBADFB /* AppDelegate.swift */; };
@@ -44,6 +46,8 @@
 		2C5E5F9533DF3E2BFEA28220 /* Pods-CocktailPartyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailPartyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailPartyUITests/Pods-CocktailPartyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DC45B30575DBC8AD3E0FE67 /* Pods-CocktailPartyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailPartyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailPartyUITests/Pods-CocktailPartyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		382BDC1A1FB2E88500EEAE45 /* NewCocktailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCocktailViewController.swift; sourceTree = "<group>"; };
+		387537EF1FB42D0F003C16B6 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		387537F11FB42F03003C16B6 /* Quantity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantity.swift; sourceTree = "<group>"; };
 		38F03D541FB190B7009A4D12 /* OriginalTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalTabBarController.swift; sourceTree = "<group>"; };
 		56EDCB99BA736CA406D53B6B /* Pods-CocktailParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailParty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailParty/Pods-CocktailParty.debug.xcconfig"; sourceTree = "<group>"; };
 		72880C611EB764C800EBADFB /* CocktailParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +113,8 @@
 		387537EE1FB42BD3003C16B6 /* Databases */ = {
 			isa = PBXGroup;
 			children = (
+				387537EF1FB42D0F003C16B6 /* Cocktail.swift */,
+				387537F11FB42F03003C16B6 /* Quantity.swift */,
 			);
 			path = Databases;
 			sourceTree = "<group>";
@@ -477,8 +483,10 @@
 				72880C691EB764C800EBADFB /* InfomationViewController.swift in Sources */,
 				72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */,
 				38F03D551FB190B7009A4D12 /* OriginalTabBarController.swift in Sources */,
+				387537F21FB42F03003C16B6 /* Quantity.swift in Sources */,
 				72880C671EB764C800EBADFB /* CocktailListViewController.swift in Sources */,
 				382BDC1B1FB2E88500EEAE45 /* NewCocktailViewController.swift in Sources */,
+				387537F01FB42D0F003C16B6 /* Cocktail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
