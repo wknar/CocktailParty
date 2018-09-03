@@ -11,11 +11,14 @@ import UIKit
 
 class NewCocktailViewController: UIViewController {
 
+    @IBOutlet weak var titleTextField: UITextField!
+    @IBOutlet weak var descTextView: UITextView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "New Cocktail"
-        view.backgroundColor = .blue
+        view.backgroundColor = .white
 
         // cancel button
         let cancelButton = UIBarButtonItem.init(title: "Cancel", style: .plain, target: self, action: #selector(closeWindow))
