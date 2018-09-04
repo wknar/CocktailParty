@@ -19,13 +19,9 @@ class NewCocktailViewController: UIViewController {
 
         title = "New Cocktail"
         view.backgroundColor = .white
-
-        // cancel button
-        let cancelButton = UIBarButtonItem.init(title: "Cancel", style: .plain, target: self, action: #selector(closeWindow))
-        navigationItem.leftBarButtonItem = cancelButton
     }
 
-    func closeWindow() {
+    @IBAction func closeWindow() {
         // TODO: ask discard editing
         dismiss(animated: true, completion: nil)
     }
