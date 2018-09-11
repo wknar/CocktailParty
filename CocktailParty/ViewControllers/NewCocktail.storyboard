@@ -142,13 +142,13 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9m-xL-wZQ" userLabel="RateContentView">
                                                 <rect key="frame" x="0.0" y="630" width="375" height="50"/>
                                                 <subviews>
-                                                    <imageView tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOff" translatesAutoresizingMaskIntoConstraints="NO" id="Au3-ub-TRD" userLabel="StarImageView1">
+                                                    <imageView tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOn" translatesAutoresizingMaskIntoConstraints="NO" id="Au3-ub-TRD" userLabel="StarImageView1">
                                                         <rect key="frame" x="20" y="0.0" width="59" height="50"/>
                                                     </imageView>
-                                                    <imageView tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOff" translatesAutoresizingMaskIntoConstraints="NO" id="icc-qw-ERl" userLabel="StarImageView2">
+                                                    <imageView tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOn" translatesAutoresizingMaskIntoConstraints="NO" id="icc-qw-ERl" userLabel="StarImageView2">
                                                         <rect key="frame" x="89" y="0.0" width="59" height="50"/>
                                                     </imageView>
-                                                    <imageView tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOff" translatesAutoresizingMaskIntoConstraints="NO" id="Tnt-3c-2rB" userLabel="StarImageView3">
+                                                    <imageView tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOn" translatesAutoresizingMaskIntoConstraints="NO" id="Tnt-3c-2rB" userLabel="StarImageView3">
                                                         <rect key="frame" x="158" y="0.0" width="59" height="50"/>
                                                     </imageView>
                                                     <imageView tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOff" translatesAutoresizingMaskIntoConstraints="NO" id="S48-FE-NCz" userLabel="StarImageView4">
@@ -158,7 +158,6 @@
                                                         <rect key="frame" x="296" y="0.0" width="59" height="50"/>
                                                     </imageView>
                                                 </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="icc-qw-ERl" firstAttribute="height" secondItem="Au3-ub-TRD" secondAttribute="height" id="2qw-r1-ysu"/>
                                                     <constraint firstItem="1hf-Ch-7rh" firstAttribute="centerY" secondItem="Au3-ub-TRD" secondAttribute="centerY" id="Af2-HT-Wte"/>
@@ -303,6 +302,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="StarOff" width="59" height="54"/>
+        <image name="StarOff" width="474" height="453"/>
+        <image name="StarOn" width="474" height="453"/>
     </resources>
 </document>
