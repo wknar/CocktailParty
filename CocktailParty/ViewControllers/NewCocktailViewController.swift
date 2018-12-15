@@ -22,7 +22,7 @@ class NewCocktailViewController: UIViewController {
         navigationItem.leftBarButtonItem = cancelButton
     }
 
-    func closeWindow() {
+    @objc func closeWindow() {
         // TODO: ask discard editing
         dismiss(animated: true, completion: nil)
     }

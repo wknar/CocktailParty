@@ -16,12 +16,12 @@ class OriginalTabBarController: UITabBarController {
         // selected color
         let font = UIFont.systemFont(ofSize: 10)
         let selectedColor = UIColor.green
-        let selectedAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: selectedColor]
+        let selectedAttributes = [NSAttributedString.Key.font: font, NSAttributedString.Key.foregroundColor: selectedColor]
         UITabBarItem.appearance().setTitleTextAttributes(selectedAttributes, for: .selected)
         UITabBar.appearance().tintColor = selectedColor
 
         // unselected color
-        let normalAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor.black]
+        let normalAttributes = [NSAttributedString.Key.font: font, NSAttributedString.Key.foregroundColor: UIColor.black]
         UITabBarItem.appearance().setTitleTextAttributes(normalAttributes, for: .normal)
 
         // icon color

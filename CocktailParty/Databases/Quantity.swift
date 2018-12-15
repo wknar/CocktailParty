@@ -10,9 +10,9 @@ import Foundation
 import RealmSwift
 
 class Quantity: Object {
-    dynamic var id     = 0
-    dynamic var name   = ""
-    dynamic var amount = 0.0
+    @objc dynamic var id     = 0
+    @objc dynamic var name   = ""
+    @objc dynamic var amount = 0.0
 
     override class func primaryKey() -> String? {
         return "id"

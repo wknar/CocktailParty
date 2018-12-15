@@ -21,7 +21,7 @@ class CocktailListViewController: UIViewController {
     }
 
 
-    func openNewCocktail() {
+    @objc func openNewCocktail() {
         let newCocktailViewController = NewCocktailViewController()
         let navNewCocktailViewController = UINavigationController(rootViewController: newCocktailViewController)
         present(navNewCocktailViewController, animated: true, completion: nil)

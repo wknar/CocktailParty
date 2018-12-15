@@ -10,10 +10,10 @@ import Foundation
 import RealmSwift
 
 class Cocktail: Object {
-    dynamic var id       = 0
-    dynamic var title    = ""
-    dynamic var desc     = ""
-    dynamic var rate     = 0
+    @objc dynamic var id       = 0
+    @objc dynamic var title    = ""
+    @objc dynamic var desc     = ""
+    @objc dynamic var rate     = 0
     let content  = List<Quantity>()
 
     override class func primaryKey() -> String? {
