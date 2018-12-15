@@ -20,11 +20,9 @@ class CocktailListViewController: UIViewController {
         navigationItem.rightBarButtonItem = newItemButton
     }
 
-
     @objc func openNewCocktail() {
-        let newCocktailViewController = NewCocktailViewController()
-        let navNewCocktailViewController = UINavigationController(rootViewController: newCocktailViewController)
-        present(navNewCocktailViewController, animated: true, completion: nil)
+        let vc = UIStoryboard(name: "NewCocktail", bundle: nil).instantiateInitialViewController() as! NewCocktailViewController
+        self.present(vc, animated: true, completion: nil)
     }
 }
 
