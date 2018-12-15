@@ -39,7 +39,7 @@ class NewCocktailViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
 
-    func tapStarImage(_ sender: UITapGestureRecognizer) {
+    @objc func tapStarImage(_ sender: UITapGestureRecognizer) {
         // TODO: 一度全部オフにして、1番からつけたれたタグ番号までを入れる
         starImageView1.image = UIImage(named: "StarOffhh")
         if let view = sender.view {
