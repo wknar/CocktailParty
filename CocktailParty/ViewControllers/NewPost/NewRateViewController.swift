@@ -12,5 +12,7 @@ class NewRateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        title = "New Post 4/4"
     }
 }

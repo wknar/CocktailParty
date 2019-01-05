@@ -12,5 +12,7 @@ class NewDescViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        title = "New Post 3/4"
     }
 }
