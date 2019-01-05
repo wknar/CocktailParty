@@ -15,6 +15,12 @@
 		6386D9D81FA08A6636F552B0 /* Pods_CocktailPartyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC70C9919FF940DCD87AF061 /* Pods_CocktailPartyTests.framework */; };
 		7209F011213C80F2002B29FC /* NewCocktail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7209F010213C80F2002B29FC /* NewCocktail.storyboard */; };
 		720E09A121DB9BCD00D39AF5 /* NewTitle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E09A021DB9BCD00D39AF5 /* NewTitle.storyboard */; };
+		720E09A421E098A900D39AF5 /* NewPortionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E09A321E098A900D39AF5 /* NewPortionViewController.swift */; };
+		720E09A621E098BE00D39AF5 /* NewPortion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E09A521E098BE00D39AF5 /* NewPortion.storyboard */; };
+		720E09A821E098D500D39AF5 /* NewDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E09A721E098D500D39AF5 /* NewDescViewController.swift */; };
+		720E09AA21E098E300D39AF5 /* NewDesc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E09A921E098E300D39AF5 /* NewDesc.storyboard */; };
+		720E09AC21E098F500D39AF5 /* NewRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E09AB21E098F500D39AF5 /* NewRateViewController.swift */; };
+		720E09AE21E0990600D39AF5 /* NewRate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E09AD21E0990600D39AF5 /* NewRate.storyboard */; };
 		72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C641EB764C800EBADFB /* AppDelegate.swift */; };
 		72880C671EB764C800EBADFB /* CocktailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C661EB764C800EBADFB /* CocktailListViewController.swift */; };
 		72880C691EB764C800EBADFB /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C681EB764C800EBADFB /* InformationViewController.swift */; };
@@ -55,6 +61,12 @@
 		56EDCB99BA736CA406D53B6B /* Pods-CocktailParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocktailParty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocktailParty/Pods-CocktailParty.debug.xcconfig"; sourceTree = "<group>"; };
 		7209F010213C80F2002B29FC /* NewCocktail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewCocktail.storyboard; sourceTree = "<group>"; };
 		720E09A021DB9BCD00D39AF5 /* NewTitle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewTitle.storyboard; sourceTree = "<group>"; };
+		720E09A321E098A900D39AF5 /* NewPortionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPortionViewController.swift; sourceTree = "<group>"; };
+		720E09A521E098BE00D39AF5 /* NewPortion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewPortion.storyboard; sourceTree = "<group>"; };
+		720E09A721E098D500D39AF5 /* NewDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDescViewController.swift; sourceTree = "<group>"; };
+		720E09A921E098E300D39AF5 /* NewDesc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewDesc.storyboard; sourceTree = "<group>"; };
+		720E09AB21E098F500D39AF5 /* NewRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRateViewController.swift; sourceTree = "<group>"; };
+		720E09AD21E0990600D39AF5 /* NewRate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewRate.storyboard; sourceTree = "<group>"; };
 		72880C611EB764C800EBADFB /* CocktailParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72880C641EB764C800EBADFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72880C661EB764C800EBADFB /* CocktailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailListViewController.swift; sourceTree = "<group>"; };
@@ -108,13 +120,12 @@
 		387537ED1FB42BAB003C16B6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				720E09A221E0986100D39AF5 /* NewPost */,
 				38F03D541FB190B7009A4D12 /* OriginalTabBarController.swift */,
 				72880C661EB764C800EBADFB /* CocktailListViewController.swift */,
 				72880C681EB764C800EBADFB /* InformationViewController.swift */,
 				382BDC1A1FB2E88500EEAE45 /* NewCocktailViewController.swift */,
 				7209F010213C80F2002B29FC /* NewCocktail.storyboard */,
-				72D744A121DB11C8000AA04A /* NewTitleViewController.swift */,
-				720E09A021DB9BCD00D39AF5 /* NewTitle.storyboard */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -136,6 +147,21 @@
 				ECF5B955C5A1EE9608B6AE53 /* Pods_CocktailPartyUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		720E09A221E0986100D39AF5 /* NewPost */ = {
+			isa = PBXGroup;
+			children = (
+				72D744A121DB11C8000AA04A /* NewTitleViewController.swift */,
+				720E09A021DB9BCD00D39AF5 /* NewTitle.storyboard */,
+				720E09A321E098A900D39AF5 /* NewPortionViewController.swift */,
+				720E09A521E098BE00D39AF5 /* NewPortion.storyboard */,
+				720E09A721E098D500D39AF5 /* NewDescViewController.swift */,
+				720E09A921E098E300D39AF5 /* NewDesc.storyboard */,
+				720E09AB21E098F500D39AF5 /* NewRateViewController.swift */,
+				720E09AD21E0990600D39AF5 /* NewRate.storyboard */,
+			);
+			path = NewPost;
 			sourceTree = "<group>";
 		};
 		72880C581EB764C800EBADFB = {
@@ -323,10 +349,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				72880C711EB764C800EBADFB /* LaunchScreen.storyboard in Resources */,
+				720E09A621E098BE00D39AF5 /* NewPortion.storyboard in Resources */,
 				7209F011213C80F2002B29FC /* NewCocktail.storyboard in Resources */,
+				720E09AA21E098E300D39AF5 /* NewDesc.storyboard in Resources */,
 				72880C6E1EB764C800EBADFB /* Assets.xcassets in Resources */,
 				72880C6C1EB764C800EBADFB /* Main.storyboard in Resources */,
 				720E09A121DB9BCD00D39AF5 /* NewTitle.storyboard in Resources */,
+				720E09AE21E0990600D39AF5 /* NewRate.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +457,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720E09AC21E098F500D39AF5 /* NewRateViewController.swift in Sources */,
 				72880C691EB764C800EBADFB /* InformationViewController.swift in Sources */,
 				72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */,
+				720E09A821E098D500D39AF5 /* NewDescViewController.swift in Sources */,
 				72D744A221DB11C8000AA04A /* NewTitleViewController.swift in Sources */,
 				38F03D551FB190B7009A4D12 /* OriginalTabBarController.swift in Sources */,
 				387537F21FB42F03003C16B6 /* Quantity.swift in Sources */,
+				720E09A421E098A900D39AF5 /* NewPortionViewController.swift in Sources */,
 				72880C671EB764C800EBADFB /* CocktailListViewController.swift in Sources */,
 				382BDC1B1FB2E88500EEAE45 /* NewCocktailViewController.swift in Sources */,
 				387537F01FB42D0F003C16B6 /* Cocktail.swift in Sources */,
