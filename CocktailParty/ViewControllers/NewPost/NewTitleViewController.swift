@@ -10,6 +10,10 @@ import UIKit
 
 class NewTitleViewController: UIViewController {
 
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var titleTextField: UITextField!
+    @IBOutlet var nextButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

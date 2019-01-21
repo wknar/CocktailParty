@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import Cosmos
 
 class NewRateViewController: UIViewController {
+
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var starView: CosmosView!
+    @IBOutlet var resistButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -32,6 +32,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gc0-Qs-zdg"/>
                     </view>
+                    <connections>
+                        <outlet property="nextButton" destination="Mea-Wq-PmK" id="cI7-rw-iBc"/>
+                        <outlet property="portionTableView" destination="Yuq-jc-EvP" id="4qg-iw-N1q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="off-Wd-CEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

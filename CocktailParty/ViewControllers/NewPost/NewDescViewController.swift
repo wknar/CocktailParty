@@ -10,6 +10,10 @@ import UIKit
 
 class NewDescViewController: UIViewController {
 
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var descTextView: UITextView!
+    @IBOutlet var nextButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

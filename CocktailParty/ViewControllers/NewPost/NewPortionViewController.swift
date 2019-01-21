@@ -10,6 +10,9 @@ import UIKit
 
 class NewPortionViewController: UIViewController {
 
+    @IBOutlet var portionTableView: UITableView!
+    @IBOutlet var nextButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
