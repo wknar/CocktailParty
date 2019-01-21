@@ -2,6 +2,7 @@ target 'CocktailParty' do
   use_frameworks!
 
   pod 'RealmSwift'
+  pod 'Cosmos', '~> 18.0'
 
   target 'CocktailPartyTests' do
     inherit! :search_paths
