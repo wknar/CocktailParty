@@ -17,4 +17,10 @@ class Quantity: Object {
     override class func primaryKey() -> String? {
         return "id"
     }
+
+    convenience init(name: String, amount: Double = 0.0) {
+        self.init()
+        self.name = name
+        self.amount = amount
+    }
 }

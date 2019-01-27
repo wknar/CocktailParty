@@ -14,7 +14,7 @@ class Cocktail: Object {
     @objc dynamic var title    = ""
     @objc dynamic var desc     = ""
     @objc dynamic var rate     = 0
-    let content  = List<Quantity>()
+    var content  = List<Quantity>()
 
     override class func primaryKey() -> String? {
         return "id"
