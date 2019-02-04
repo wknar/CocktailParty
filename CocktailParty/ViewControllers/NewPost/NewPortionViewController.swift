@@ -33,6 +33,7 @@ class NewPortionViewController: UIViewController, UITableViewDelegate, UITableVi
 
         portionTableView.delegate = self
         portionTableView.dataSource = self
+        portionTableView.tableFooterView = UIView()
 
         nextButton.addTarget(self, action: #selector(self.nextButtonTapped), for: .touchUpInside)
     }
@@ -68,6 +69,37 @@ class NewPortionViewController: UIViewController, UITableViewDelegate, UITableVi
         }
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let section = Section(rawValue: indexPath.section) else {
+            return
+        }
+        if section == .new {
+            showTextField()
+        }
+
+    }
+
+    func showTextField() {
+        let alert = UIAlertController(title: "Add new name", message: "", preferredStyle: .alert)
+        alert.addTextField(configurationHandler: { (textField) -> Void in
+            textField.placeholder = "Water"
+        })
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: { a -> Void in
+            if let textField = alert.textFields?.first {
+                let quantity = Quantity(name: textField.text!)
+                self.quantities.append(quantity)
+                self.portionTableView.reloadData()
+            }
+        })
+        let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
+        alert.addAction(okAction)
+        alert.addAction(cancelAction)
+
+        DispatchQueue.main.async {
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+
     @objc func nextButtonTapped() {
         let quantity = Quantity()
         quantity.name = ""
@@ -82,11 +114,21 @@ class NewPortionNameCell: UITableViewCell {
     @IBOutlet var nameLabel: UILabel!
 
     func setup(name: String) {
-        self.nameLabel.text = name
+        nameLabel.text = name
+    }
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        selectionStyle = .none
     }
 
 }
 
 class AddNewPortionCell: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        selectionStyle = .none
+    }
 
 }
