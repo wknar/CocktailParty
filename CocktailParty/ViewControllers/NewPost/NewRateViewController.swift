@@ -15,6 +15,12 @@ class NewRateViewController: UIViewController {
     @IBOutlet var starView: CosmosView!
     @IBOutlet var resistButton: UIButton!
 
+    private var cocktail: Cocktail!
+
+    func setup(cocktail: Cocktail) {
+        self.cocktail = cocktail
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

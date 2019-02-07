@@ -101,10 +101,14 @@ class NewPortionViewController: UIViewController, UITableViewDelegate, UITableVi
     }
 
     @objc func nextButtonTapped() {
-        let quantity = Quantity()
-        quantity.name = ""
-        quantity.amount = 0.0
-        cocktail.content = List([Quantity(name: "opo"), Quantity(name: "hoh")])
+        if quantities.count > 0 {
+            cocktail.content = List(quantities)
+            let vc = UIStoryboard(name: "NewDesc", bundle: nil).instantiateInitialViewController() as! NewDescViewController
+            vc.setup(cocktail: cocktail)
+            navigationController?.pushViewController(vc, animated: true)
+        } else {
+            // TODO: show error message
+        }
     }
 
 }
