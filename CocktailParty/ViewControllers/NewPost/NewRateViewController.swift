@@ -25,5 +25,11 @@ class NewRateViewController: UIViewController {
         super.viewDidLoad()
 
         title = "New Post 4/4"
+
+        resistButton.addTarget(self, action: #selector(self.resistButtonTapped), for: .touchUpInside)
+    }
+
+    @objc func resistButtonTapped() {
+        cocktail.rate = Int(self.starView.rating)
     }
 }
