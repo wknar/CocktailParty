@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CocktailListViewController: UIViewController {
+class CocktailListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,5 +24,14 @@ class CocktailListViewController: UIViewController {
         let vc = UIStoryboard(name: "NewTitle", bundle: nil).instantiateInitialViewController() as! NewTitleViewController
         self.present(UINavigationController(rootViewController: vc), animated: true, completion: nil)
     }
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
+    }
+
 }
 
