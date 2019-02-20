@@ -20,6 +20,8 @@ class NewTitleViewController: UIViewController {
         super.viewDidLoad()
 
         title = "New Post 1/4"
+        let closeButton = UIBarButtonItem.init(title: "Close", style: .plain, target: self, action: #selector(self.close))
+        navigationItem.leftBarButtonItem = closeButton
 
         cocktail = Cocktail()
 
@@ -32,6 +34,11 @@ class NewTitleViewController: UIViewController {
             vc.setup(cocktail: cocktail)
             navigationController?.pushViewController(vc, animated: true)
         }
+    }
+
+    @objc func close() {
+        // TODO: ask discard if cocktail instance have content
+        dismiss(animated: true, completion: nil)
     }
 
     func setTitle() -> Bool {
