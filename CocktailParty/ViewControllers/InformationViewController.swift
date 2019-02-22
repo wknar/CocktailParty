@@ -13,7 +13,7 @@ class InformationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "App Info"
+        title = Tab.appInfo.rawValue
     }
 
 }

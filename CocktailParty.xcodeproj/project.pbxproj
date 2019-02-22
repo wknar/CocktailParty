@@ -21,6 +21,8 @@
 		720E09AA21E098E300D39AF5 /* NewDesc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E09A921E098E300D39AF5 /* NewDesc.storyboard */; };
 		720E09AC21E098F500D39AF5 /* NewRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E09AB21E098F500D39AF5 /* NewRateViewController.swift */; };
 		720E09AE21E0990600D39AF5 /* NewRate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E09AD21E0990600D39AF5 /* NewRate.storyboard */; };
+		7222B3792220584D00D14BF5 /* CocktailList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7222B3772220584D00D14BF5 /* CocktailList.storyboard */; };
+		7222B37C2220587900D14BF5 /* Information.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7222B37A2220587900D14BF5 /* Information.storyboard */; };
 		72880C651EB764C800EBADFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C641EB764C800EBADFB /* AppDelegate.swift */; };
 		72880C671EB764C800EBADFB /* CocktailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C661EB764C800EBADFB /* CocktailListViewController.swift */; };
 		72880C691EB764C800EBADFB /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72880C681EB764C800EBADFB /* InformationViewController.swift */; };
@@ -67,6 +69,8 @@
 		720E09A921E098E300D39AF5 /* NewDesc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewDesc.storyboard; sourceTree = "<group>"; };
 		720E09AB21E098F500D39AF5 /* NewRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRateViewController.swift; sourceTree = "<group>"; };
 		720E09AD21E0990600D39AF5 /* NewRate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewRate.storyboard; sourceTree = "<group>"; };
+		7222B3782220584D00D14BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CocktailList.storyboard; sourceTree = "<group>"; };
+		7222B37B2220587900D14BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Information.storyboard; sourceTree = "<group>"; };
 		72880C611EB764C800EBADFB /* CocktailParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72880C641EB764C800EBADFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72880C661EB764C800EBADFB /* CocktailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailListViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 				387537EE1FB42BD3003C16B6 /* Databases */,
 				72880C6D1EB764C800EBADFB /* Assets.xcassets */,
 				72880C6A1EB764C800EBADFB /* Main.storyboard */,
+				7222B37A2220587900D14BF5 /* Information.storyboard */,
+				7222B3772220584D00D14BF5 /* CocktailList.storyboard */,
 				72880C6F1EB764C800EBADFB /* LaunchScreen.storyboard */,
 				72880C721EB764C800EBADFB /* Info.plist */,
 			);
@@ -354,6 +360,8 @@
 				720E09AA21E098E300D39AF5 /* NewDesc.storyboard in Resources */,
 				72880C6E1EB764C800EBADFB /* Assets.xcassets in Resources */,
 				72880C6C1EB764C800EBADFB /* Main.storyboard in Resources */,
+				7222B3792220584D00D14BF5 /* CocktailList.storyboard in Resources */,
+				7222B37C2220587900D14BF5 /* Information.storyboard in Resources */,
 				720E09A121DB9BCD00D39AF5 /* NewTitle.storyboard in Resources */,
 				720E09AE21E0990600D39AF5 /* NewRate.storyboard in Resources */,
 			);
@@ -505,6 +513,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7222B3772220584D00D14BF5 /* CocktailList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7222B3782220584D00D14BF5 /* Base */,
+			);
+			name = CocktailList.storyboard;
+			sourceTree = "<group>";
+		};
+		7222B37A2220587900D14BF5 /* Information.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7222B37B2220587900D14BF5 /* Base */,
+			);
+			name = Information.storyboard;
+			sourceTree = "<group>";
+		};
 		72880C6A1EB764C800EBADFB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

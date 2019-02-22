@@ -13,7 +13,7 @@ class CocktailListViewController: UIViewController, UITableViewDelegate, UITable
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "My Cocktail List"
+        title = Tab.coctailList.rawValue
         view.backgroundColor = .lightGray
 
         let newItemButton = UIBarButtonItem(title: "New", style: .plain, target: self, action: #selector(openNewCocktail))
