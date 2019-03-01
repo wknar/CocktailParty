@@ -10,11 +10,15 @@ import UIKit
 
 class CocktailListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet var tableView: UITableView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = Tab.coctailList.rawValue
         view.backgroundColor = .lightGray
+
+        tableView.delegate = self
 
         let newItemButton = UIBarButtonItem(title: "New", style: .plain, target: self, action: #selector(openNewCocktail))
         navigationItem.rightBarButtonItem = newItemButton
@@ -31,6 +35,10 @@ class CocktailListViewController: UIViewController, UITableViewDelegate, UITable
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         return UITableViewCell()
+    }
+
+    func getCocktails() {
+        
     }
 
 }
