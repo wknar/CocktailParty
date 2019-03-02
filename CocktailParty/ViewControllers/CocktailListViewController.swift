@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import RealmSwift
 
 class CocktailListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet var tableView: UITableView!
+
+    private var cocktails = [Cocktail]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +25,8 @@ class CocktailListViewController: UIViewController, UITableViewDelegate, UITable
 
         let newItemButton = UIBarButtonItem(title: "New", style: .plain, target: self, action: #selector(openNewCocktail))
         navigationItem.rightBarButtonItem = newItemButton
+
+        getCocktails()
     }
 
     @objc func openNewCocktail() {
@@ -38,7 +43,8 @@ class CocktailListViewController: UIViewController, UITableViewDelegate, UITable
     }
 
     func getCocktails() {
-        
+        let realm = try! Realm()
+        cocktails = realm.objects(Cocktail.self).map{$0}
     }
 
 }
